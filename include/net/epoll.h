@@ -1,0 +1,7 @@
+#ifndef EPOLL_H
+#define EPOLL_H
+
+#define EVENT_READ  (EPOLLONESHOT | EPOLLIN)
+#define EVENT_WRITE (EPOLLONESHOT | EPOLLOUT)
+
+#endif
