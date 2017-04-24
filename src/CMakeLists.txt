@@ -1,1 +1,5 @@
 project(${PROJNAME})
+include_directories(${PROJECT_SOURCE_DIR}/include)
+link_directories(${PROJECT_SOURCE_DIR}/lib)
+add_subdirectory(auto_test)
+add_subdirectory(test)
